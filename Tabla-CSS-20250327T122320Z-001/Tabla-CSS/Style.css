@@ -1,0 +1,65 @@
+h1 {
+    color: rgb(65, 6, 65); /*Titulo de la pagina*/
+}
+h1 {
+    background-color: rgb(145, 139, 139);
+}
+h2 {
+    color: rgb(65, 6, 65);
+}
+h2 {
+    background-color: rgb(145, 139, 139);
+}
+
+section  {
+    background-color: rgb(77, 49, 126);
+}
+body {
+    background-color: rgb(185, 184, 188); /*Cambia el fondo del documento*/
+}
+nav ul {
+    list-style-type: none; 
+}
+
+a {
+    color: rgb(174, 138, 174); /*Color del link por default*/
+    text-decoration: none;/*Quita la linea que hay debajo de la url*/
+}
+
+a:hover {
+    color:rgb(15, 130, 65); /*el color que subraya las palabras*/
+}
+image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+image-container img {
+    width: 400px;
+    display: block;
+}
+image-container a {
+    display: inline-block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid whitesmoke;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+p {
+    color: white;
+}
+th {
+    color:rgb(163, 155, 165);
+}
